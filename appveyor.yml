@@ -3,7 +3,6 @@ image: Visual Studio 2017
 
 configuration:
   - Release
-  - Debug
 
 platform:
   - Win32
@@ -36,7 +35,7 @@ build_script:
 
 # to run our custom scripts instead of automatic tests
 test_script:
-  - cmd: tests\run-tests.bat %PLATFORM% %CONFIGURATION%
+
 
 for:
 # run only for Release
